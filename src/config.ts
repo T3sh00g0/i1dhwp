@@ -2,8 +2,8 @@ import { ServerOptions } from './types/ServerOptions';
 
 export default {
   secretKey: 'e96d16e0e97ce4f1bc397156eb34c9a8',
-  host: 'b1whapi.up.railway.app',
-  port: '8080',
+  host: 'api.wha.b1nar.app',
+  port: '',
   deviceName: 'B1Whapi',
   poweredBy: 'B1nar',
   startAllSession: true,
@@ -93,7 +93,7 @@ export default {
     mongodbCollection: 'tokens',
     mongodbUser: 'mongo',
     mongodbPassword: 'xZtIczohIXUnJNpqGSLLgARQfqVenLxc',
-    mongodbHost: 'mongodb.railway.internal',
+    mongodbHost: 'mongodb-production-653b.up.railway.app',
     mongoIsRemote: true,
     mongoURLRemote: 'mongodb://mongo:xZtIczohIXUnJNpqGSLLgARQfqVenLxc@switchback.proxy.rlwy.net:28802',
     mongodbPort: 27017,
