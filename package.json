@@ -1,10 +1,14 @@
 {
   "name": "@wppconnect/server",
-  "version": "2.8.10",
+  "version": "2.8.11",
   "description": "Projeto feito para autenticar a automomacao do WhatsappWeb com multi-clientes de forma dinamica. Backend feito em Nodejs(express, socketio), FrontEnd (ReactJS)",
   "main": "dist/index.js",
   "author": "kingaspx",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wppconnect-team/wppconnect-server"
+  },
   "scripts": {
     "build:types": "tsc",
     "build:js": "rimraf dist && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline --copy-files",
@@ -32,7 +36,7 @@
   },
   "packageManager": "yarn@4.12.0",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.956.0",
+    "@aws-sdk/client-s3": "^3.958.0",
     "@wppconnect-team/wppconnect": "^1.37.8",
     "archiver": "^7.0.1",
     "axios": "^1.13.2",
@@ -82,7 +86,7 @@
     "@types/swagger-ui-express": "^4.1.8",
     "@types/unzipper": "^0.10.11",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^8.50.0",
+    "@typescript-eslint/parser": "^8.50.1",
     "commitizen": "^4.3.1",
     "conventional-changelog-cli": "^5.0.0",
     "crypto-js": "^4.2.0",
@@ -103,7 +107,7 @@
     "pretty-quick": "^4.2.2",
     "prom-client": "^14.2.0",
     "redis": "^4.7.1",
-    "release-it": "^19.1.0",
+    "release-it": "^19.2.2",
     "rimraf": "^6.1.2",
     "shx": "^0.4.0",
     "swagger-ui-dist": "^5.31.0",
