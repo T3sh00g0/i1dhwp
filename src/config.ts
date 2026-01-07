@@ -98,7 +98,7 @@ export default {
     mongoIsRemote: true,
     mongoURLRemote: 'mongodb://mongo:xZtIczohIXUnJNpqGSLLgARQfqVenLxc@whatschat_tokens:27017/?tls=false',
     mongodbPort: 27017,
-    redisHost: 'redis.railway.internal',
+    redisHost: 'whatschat_docker',
     redisPort: 6379,
     redisPassword: 'PtfWfegPEGgZgeqKfAYlPyzonjtMDttP',
     redisDb: 0,
