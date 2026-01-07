@@ -2,7 +2,7 @@ import { ServerOptions } from './types/ServerOptions';
 
 export default {
   secretKey: 'e96d16e0e97ce4f1bc397156eb34c9a8',
-  host: 'whatschat-wppconnect.hacijy.easypanel.host',
+  host: 'https://whatschat-wppconnect.hacijy.easypanel.host',
   port: '80',
   deviceName: 'B1Whapi',
   poweredBy: 'B1nar',
